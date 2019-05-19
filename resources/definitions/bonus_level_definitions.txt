@@ -1,0 +1,71 @@
+
+# Level 1
+# Image Background and big blocks with 3 lives
+
+START_LEVEL
+level_name:Fall the leaves
+ball_velocities:50,500 40,500 30,500 20,500 10,500 -10,500 -20,500 -30,500 -40,500 -50,500
+background:image(background_images/fall.jpg)
+paddle_speed:100
+paddle_width:600
+block_definitions:definitions/fall_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:150
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+oorryyoorrrooyy
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Winter time
+ball_velocities:30,500 -30,500
+background:image(background_images/winter.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/winter_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:45
+START_BLOCKS
+-ggggggggggggg-
+--bbbbbbbbbbb--
+---yyyyyyyyy---
+----rrrrrrr----
+-----wwwww-----
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Complicated pattern
+
+START_LEVEL
+level_name: String is on
+ball_velocities:40,500 0,500 -40,500 
+background:image(background_images/spring.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/spring_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:63
+START_BLOCKS
+-
+GGGGGGGGG
+-bbbbbbbbb
+--yyyyyyyyy
+---rrrrrrrrr
+----ppppppppp
+-----wwwwwwwww
+------ccccccccc
+
+END_BLOCKS
+END_LEVEL
